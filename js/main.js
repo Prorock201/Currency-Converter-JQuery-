@@ -1,5 +1,5 @@
 (function() {
-	var bankUrl = 'https://api.privatbank.ua/p24api/pubinfo?json&exchange&coursid=4';
+	var bankUrl = 'https://api.privatbank.ua/p24api/pubinfo?json&exchange&coursid=3';
 	var uah = {};
 	$.get(bankUrl, getCurrency).fail(getError);
 	$('#exchange').on('click', getExchange);
